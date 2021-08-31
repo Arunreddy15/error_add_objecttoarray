@@ -1,0 +1,116 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comment-container {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 552px) {
+  .container {
+    width: 80%;
+    margin-top: 40px;
+  }
+  .heading {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .comment-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-logo {
+    order: 1;
+    /* height: 40vh; */
+    max-width: 40vw;
+  }
+  .comment-edit-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .input-name {
+    width: 80%;
+
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 10px;
+    font-family: Roboto;
+  }
+  .input-comment {
+    padding-left: 10px;
+    font-family: Roboto;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  .question {
+    font-size: 14px;
+    font-weight: bold;
+    color: #475569;
+  }
+  .add-comment {
+    background-color: #0284c7;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    height: 30px;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .container {
+    width: 80%;
+    margin-top: 40px;
+  }
+  .comment-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .image-logo {
+    height: 25vh;
+    margin-bottom: 20px;
+  }
+
+  .comment-edit-container {
+    width: 90%;
+  }
+  .input-name {
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+    padding-left: 10px;
+    font-family: Roboto;
+    max-width: 300px;
+  }
+  .input-comment {
+    width: 100%;
+    padding-left: 10px;
+    font-family: Roboto;
+  }
+  .question {
+    font-size: 12px;
+    font-weight: bold;
+    color: #475569;
+  }
+  .add-comment {
+    background-color: #0284c7;
+    border: 0px;
+    border-radius: 4px;
+    color: white;
+    height: 30px;
+    width: 45%;
+  }
+}
